@@ -1,6 +1,6 @@
 .ticket {
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
     /* background-image: url("window.png"); */
     background-size: contain;
     background-color: rgb(19, 14, 14);
@@ -10,11 +10,13 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
-    font-size: 0.99rem;
+    /* padding: 1rem; */
+    font-size: 1.8rem;
 }
 
 .ticket:hover {
     opacity: 0.85;
+    cursor: pointer;
 }
 
 .ticket.active {

@@ -10,8 +10,8 @@
 }
 
 .board {
-  width: 50rem;
-  height: 50rem;
+  width: 58rem;
+  height: 58rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
