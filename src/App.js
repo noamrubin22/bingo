@@ -68,7 +68,7 @@ const App = () => {
   }
 
   const checkWin = () => {
-    winningCombinations.forEach((array, index) => {
+    winningCombinations.map((array, index) => {
       let counterWin = 0;
       array.map(el => {
         if ((tickets[el]) && (tickets[el].checked == true)) {

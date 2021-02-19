@@ -1,15 +1,16 @@
 .ticket {
     width: 10rem;
     height: 10rem;
-    background-image: url("window.png");
+    /* background-image: url("window.png"); */
     background-size: contain;
     background-color: rgb(19, 14, 14);
-    color: blueviolet;
+    color: grey;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    font-size: 0.99rem;
 }
 
 .ticket:hover {
@@ -19,8 +20,8 @@
 .ticket.active {
     background-color: rgb(231, 231, 175);
     justify-content: center;
-    align-items: flex-end;
-    color: rgb(150, 122, 179);
+    /* align-items: flex-end; */
+    /* color: rgb(150, 122, 179); */
     z-index: 1;
 }
 
