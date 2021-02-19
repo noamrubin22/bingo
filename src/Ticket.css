@@ -1,0 +1,37 @@
+.ticket {
+    width: 10rem;
+    height: 10rem;
+    background-image: url("window.png");
+    background-size: contain;
+    background-color: rgb(19, 14, 14);
+    color: blueviolet;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.ticket:hover {
+    opacity: 0.85;
+}
+
+.ticket.active {
+    background-color: rgb(231, 231, 175);
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(150, 122, 179);
+    z-index: 1;
+}
+
+.win {
+    animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #1056c0;}
+    50%		{ background-color: #ef0a1a;}
+    75%		{ background-color: #254878;}
+    100%	{ background-color: #04a1d5;}
+}
