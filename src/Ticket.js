@@ -2,9 +2,22 @@ import React from 'react';
 import "./Ticket.css";
 
 const Ticket = (props) => {
-    const ticket = props.ticket;
+    const {ticket} = props;
+
+    let ticketName;
+    
+    if (props.index === 12) {
+        ticketName = "ticket music";
+    } else if (props.isWon) {
+        ticketName = "ticket win";
+    } else if (ticket.checked) {
+        ticketName = "ticket active";
+    } else {
+        ticketName = "ticket";
+    }
+
     return (
-        <div className={props.isWon ? "ticket win" : ticket.checked ? "ticket active" : "ticket" } onClick={() => props.onClick()}>
+        <div className={ticketName} onClick={() => props.onClick()}>
             <p>{ticket.ticket}</p> 
         </div>
     )
