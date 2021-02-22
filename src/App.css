@@ -1,27 +1,28 @@
-/* mobile  */
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: 100vw;
-  height: 100vh;
-  background: black;
-  font-family: 'Nunito', sans-serif;
-}
+@media only screen and (max-width: 600px){
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    font-family: 'Nunito', sans-serif;
+  }
 
-.board {
-  width: 85vw;
-  height: 85vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border: 1px white solid;
-  border-radius: 5%;
+  .board {
+    width: 85vw;
+    height: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border: 1px white solid;
+    border-radius: 5%;
+  }
 }
 
 /* tablet */
