@@ -1,4 +1,4 @@
-@media only screen and (max-width: 667px){
+@media only screen and (max-width: 667px) {
   .App {
     text-align: center;
     display: flex;
@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100vh;
     background: black;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
 
   .board {
@@ -18,9 +18,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-evenly;
     margin-bottom: 1rem;
     padding: 0.3rem;
-    border: 1px white solid;
+    border: 1px grey solid;
     border-radius: 5%;
   }
 }
@@ -37,18 +38,19 @@
     width: 100vw;
     height: 100vh;
     background: black;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
-  
+
   .board {
     width: 60vw;
-    height:60vw;
+    height: 60vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-evenly;
     margin-bottom: 1rem;
     padding: 1rem;
-    border: 1px white solid;
+    border: 1px grey solid;
     border-radius: 5%;
   }
 }
@@ -65,18 +67,19 @@
     width: 100vw;
     height: 100vh;
     background: black;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
-  
+
   .board {
     width: 45vw;
     height: 45vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-evenly;
     padding: 2rem;
     margin: 3rem;
-    border: 1px white solid;
+    border: 1px grey solid;
     border-radius: 5%;
   }
 }
