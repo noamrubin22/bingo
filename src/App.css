@@ -41,8 +41,8 @@
   }
   
   .board {
-    width: 70vw;
-    height:70vw;
+    width: 60vw;
+    height:60vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

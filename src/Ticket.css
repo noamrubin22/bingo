@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 667px){
     .ticket {
         width: 18%;
         height: 18%;
@@ -50,7 +50,7 @@
         75% 	{ background-color: #04d596;}
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 667px) {
     .ticket {
         width: 18%;
         height: 18%;
@@ -62,7 +62,7 @@
         justify-content: center;
         align-items: center;
         z-index: 2;
-        font-size: .8rem;
+        font-size: .7rem;
         border-radius: 7%;
     }
     
@@ -103,7 +103,7 @@
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 995px) {
     .ticket {
         background-size: contain;
         background-color: rgb(44, 43, 43);

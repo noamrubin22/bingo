@@ -64,7 +64,7 @@ const ticketNames = [
       "can we take this offline?", 
       "is __ on the call?", 
       "could you share these slides afterwards?", 
-      "can somebody presenter grant rights?", 
+      "can somebody grant presenter rights?", 
       "can you email that to everyone?",
       "sorry, I had problems logging in", 
       "(animal noises in the background)", 
