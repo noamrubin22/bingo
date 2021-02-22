@@ -1,4 +1,3 @@
-/* mobile */
 .ticket {
     width: 18%;
     height: 18%;
@@ -50,8 +49,7 @@
     75% 	{ background-color: #04d596;}
 }
 
-/* tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     .ticket {
         width: 18%;
         height: 18%;
@@ -63,7 +61,7 @@
         justify-content: center;
         align-items: center;
         z-index: 2;
-        font-size: 1.2rem;
+        font-size: .8rem;
         border-radius: 7%;
     }
     
@@ -104,7 +102,6 @@
     }
 }
 
-/* desktop */
 @media only screen and (min-width: 1025px) {
     .ticket {
         background-size: contain;
@@ -115,7 +112,7 @@
         justify-content: center;
         align-items: center;
         z-index: 2;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         border-radius: 7%;
     }
 
