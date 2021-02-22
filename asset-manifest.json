@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bingo/static/css/main.9a5a96f8.chunk.css",
+    "main.css": "/bingo/static/css/main.ff5b7857.chunk.css",
     "main.js": "/bingo/static/js/main.64770fbd.chunk.js",
     "main.js.map": "/bingo/static/js/main.64770fbd.chunk.js.map",
     "runtime-main.js": "/bingo/static/js/runtime-main.ee706b2f.js",
@@ -10,7 +10,7 @@
     "static/js/3.7507654d.chunk.js": "/bingo/static/js/3.7507654d.chunk.js",
     "static/js/3.7507654d.chunk.js.map": "/bingo/static/js/3.7507654d.chunk.js.map",
     "index.html": "/bingo/index.html",
-    "static/css/main.9a5a96f8.chunk.css.map": "/bingo/static/css/main.9a5a96f8.chunk.css.map",
+    "static/css/main.ff5b7857.chunk.css.map": "/bingo/static/css/main.ff5b7857.chunk.css.map",
     "static/js/2.8450ad44.chunk.js.LICENSE.txt": "/bingo/static/js/2.8450ad44.chunk.js.LICENSE.txt",
     "static/media/0.5b891bef.wav": "/bingo/static/media/0.5b891bef.wav",
     "static/media/1.057a952a.wav": "/bingo/static/media/1.057a952a.wav",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee706b2f.js",
     "static/js/2.8450ad44.chunk.js",
-    "static/css/main.9a5a96f8.chunk.css",
+    "static/css/main.ff5b7857.chunk.css",
     "static/js/main.64770fbd.chunk.js"
   ]
 }
